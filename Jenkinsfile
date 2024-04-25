@@ -9,8 +9,8 @@ pipeline {
                     url: 'https://github.com/ElizabethTV/CI-CD-API'
             }
         }
-        
-        stage('Instalar Dependencias') {
+
+        stage('Build') {
             steps {
                 bat 'npm install'
             }
