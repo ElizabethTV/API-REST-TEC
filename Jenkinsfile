@@ -6,7 +6,7 @@ pipeline {
         stage('Clonar Repositorio') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/ElizabethTV/CI-CD-API'
+                    url: 'https://github.com/ElizabethTV/CI-CD-API.git'
             }
         }
 
